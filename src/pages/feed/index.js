@@ -45,12 +45,39 @@ const MOCK_POSTS = [
     },
     {
         id: 5,
-        story_img_url: "img/profiles/gamora/gamora-2.jpg",
+        story_img_url: "img/profiles/carol/carol-6.jpg",
+        story_isNew: false,
+        post_profile_image_url: "img/profiles/carol/carol-profile.jpg",
+        post_user_name: "Capitã Marvel",
+        post_image_url: "img/profiles/carol/carol-5.jpg",
+        post_hastag: ["fly"]
+    },
+    {
+        id: 6,
+        story_img_url: "img/profiles/gamora/gamora-1.jpg",
         story_isNew: false,
         post_profile_image_url: "img/profiles/gamora/gamora-profile.jpg",
         post_user_name: "Gamora",
-        post_image_url: "img/profiles/gamora/gamora-1.jpg",
+        post_image_url: "img/profiles/gamora/gamora-3.jpg",
         post_hastag: ["girls", "Focus"]
+    },
+    {
+        id: 7,
+        story_img_url: "img/profiles/black-panther/black-panther-4.jpg",
+        story_isNew: false,
+        post_profile_image_url: "img/profiles/black-panther/black-panther-profile.jpg",
+        post_user_name: "Black Panther",
+        post_image_url: "img/profiles/black-panther/black-panther-6.jpg",
+        post_hastag: ["nature", "beauty"]
+    },
+    {
+        id: 8,
+        story_img_url: "img/profiles/domino/domino-2.jpg",
+        story_isNew: false,
+        post_profile_image_url: "img/profiles/domino/domino-profile.jpg",
+        post_user_name: "Domino",
+        post_image_url: "img/profiles/domino/domino-2.jpg",
+        post_hastag: ["beauty"]
     },
 
 ]
