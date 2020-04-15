@@ -9,7 +9,7 @@ export default function Feed_Item({ user, posts }) {
 
             {posts.length > 0 && posts.map((post) => (
 
-                <div className="feed__item" key={post.post_id + Math.random()}>
+                <div className="feed__item" key={post.id + Math.random()}>
 
                     <div className="feed__header">
                         <a href="/">

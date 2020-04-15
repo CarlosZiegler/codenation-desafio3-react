@@ -9,7 +9,7 @@ export default function Story({ stories }) {
             {stories.map((item) => {
                 if (item.story_isNew === false) {
                     return (
-                        <div className="story__item" key={item.id + Math.random()}>
+                        <div className="story__item" key={item.id}>
                             <a href="/"><img className="story__img" src={item.story_img_url} alt="image_post" /></a>
                         </div>
                     )

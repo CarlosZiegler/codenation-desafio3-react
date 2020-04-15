@@ -80,7 +80,8 @@
 	background: transparent;
 	border: none;
 	margin: 0px 0px 0px 5px;
-	font-size: 15px;
+    font-size: 15px;
+    width: 100%;
 }
 .feed__time{
 	font-size:10px;
