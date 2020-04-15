@@ -1,0 +1,89 @@
+.feed{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	margin:5px 0 5px 0;
+	
+}
+.feed__item{
+	display: flex;
+	width:100%;
+	flex-direction: column;
+	margin-bottom: 50px;
+		
+}
+.feed__header{
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	width:100%;
+	align-content: center;
+}
+.feed__user{
+	display: flex;
+	width:100%;
+	
+	
+}
+.feed__imguser{
+	width: 35px;
+	height: auto;
+	border-radius: 100%;
+	margin:0 0 0px 10px;
+}
+.feed__nameuser{
+	align-self: center;
+	margin:5px;
+	font-weight: bold;
+}
+
+.feed__more{
+	margin:15px
+}
+
+.feed__img{
+	width: 100%;
+	height: auto;
+	border-radius: 20px;
+	padding:10px;
+}
+
+.feed__interactions{
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	width:100%;
+	align-content: center;
+	margin:0;
+}
+
+.feed__details{
+	display: flex;
+	align-content: center;
+	align-items: center;
+	margin:0px 0px 0px 6px;
+}
+.feed__hashtag{
+	color: blue;
+	margin:0px 5px 0px 0px;
+	font-size:15px
+}
+
+.feed__comments{
+	display: flex;
+	margin:10px 0px 0px 0px
+}
+
+.feed_addcomment{
+	background: transparent;
+	border: none;
+	margin: 0px 0px 0px 5px;
+	font-size: 15px;
+}
+.feed__time{
+	font-size:10px;
+	text-transform: uppercase;
+	margin: 5px 0px 0px 15px;
+}
